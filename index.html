@@ -126,7 +126,19 @@ https://www.renaultwinery.com/weddings/
         <div class="w3-container w3-white">
           <p><b>ACCOMODATIONS</b></p>
           <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('id01').style.display='block'">Buy Tickets</button>
+          <div id="id01" class="w3-modal">
+            <div class="w3-modal-content">
+              <header class="w3-container w3-pale-red w3-grayscale-min">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <h2>Accomodations</h2>
+              </header>
+              <div class="w3-container">
+                <p>Some text. Some text. Some text.</p>
+                <p>Some text. Some text. Some text.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="w3-third w3-margin-bottom">
@@ -134,7 +146,20 @@ https://www.renaultwinery.com/weddings/
         <div class="w3-container w3-white">
           <p><b>SUGGESTIONS</b></p>
           <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('suggestionsmodal').style.display='block'">Buy Tickets</button>
+          
+          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('id02').style.display='block'">Buy Tickets</button>
+          <div id="id02" class="w3-modal">
+            <div class="w3-modal-content">
+              <header class="w3-container w3-pale-red w3-grayscale-min">
+                <span onclick="document.getElementById('id02').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <h2>Suggestions</h2>
+              </header>
+              <div class="w3-container">
+                <h3>Suggestions for people traveling to the area</h3>
+                <p>Some text. Some text. Some text.</p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="w3-third w3-margin-bottom">
@@ -143,31 +168,75 @@ https://www.renaultwinery.com/weddings/
           <p><b>FAQs</b></p>
          
           <p>Click below to find answers to frequently asked questions</p>
-          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Buy Tickets</button>
+          <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('id03').style.display='block'">Click me</button>
+          <div id="id03" class="w3-modal">
+            <div class="w3-modal-content">
+              <header class="w3-container w3-pale-red w3-grayscale-min">
+                <span onclick="document.getElementById('id03').style.display='none'" class="w3-button w3-display-topright">&times;</span>
+                <h2>FAQ's</h2>
+              </header>
+              <div class="w3-container">
+                <h3>Frequently Asked Questions</h3>
+                <ol>
+                  <li>Who is getting married?
+                    <dd>-If you are asking this question, might I suggest checking the invitation?</dd>
+                  </li>
+                  <li>What should I wear? 
+                    <dd>-Attire is semi-formal/cocktail attire. Ladies should wear cocktail dresses, and the gentlemen should wear a suit and tie or a sports coat.</dd>
+                  </li>
+                  <li>What will the weather be like this time of year?
+                    <dd></dd>
+                  </li>
+                  <li>Where is everything taking place?
+                    <dd></dd>
+                  </li>
+                  <li>Does the wedding have a theme?
+                    <dd></dd>
+                  </li>
+                  <li>Is there anything fun to do in the area? 
+                    <dd></dd>
+                  </li>
+                  <li>What is the timeframe? 
+                    <dd></dd>
+                  </li>
+                  <li>Can I bring a date? 
+                    <dd></dd>
+                  </li>
+                  <li>Are there hotel room blocks? 
+                    <dd></dd>
+                  </li>
+                  <li>Are there hotel room blocks? 
+                    <dd></dd>
+                  </li>
+                  <li>Are there hotel room blocks? 
+                    <dd></dd>
+                  </li>
+                  <li>Are there hotel room blocks? 
+                    <dd></dd>
+                  </li>
+                  <li>Are there hotel room blocks? 
+                    <dd></dd>
+                  </li>
+                  <li>Are there hotel room blocks? 
+                    <dd></dd>
+                  </li>
+                  <li>Are there hotel room blocks? 
+                    <dd></dd>
+                  </li>
+                  <li>Are there hotel room blocks? 
+                    <dd></dd>
+                  </li>
+
+                </ol>
+               
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </div>
 </div>
-
-<!-- Ticket Modal -->
-<!-- <div id="ticketModal" class="w3-modal">
-  <div class="w3-modal-content w3-animate-top w3-card-4">
-    <header class="w3-container w3-teal w3-center w3-padding-32"> 
-      <span onclick="document.getElementById('ticketModal').style.display='none'" 
-     class="w3-button" >×</span>
-      <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Tickets</h2>
-    </header>
-    <div class="w3-container">
-      
-      
-      <button class="w3-button w3-red w3-section" onclick="document.getElementById('ticketModal').style.display='none'">Close <i class="fa fa-remove"></i></button>
-      <p class="w3-right">Need <a href="#" class="w3-text-blue">help?</a></p>
-    </div>
-  </div>
-</div> -->
-
-
 
 <!-- Social Media Section -->
 <section id="instagram" class="section-padding">
@@ -199,30 +268,6 @@ https://www.renaultwinery.com/weddings/
     <!-- <button onclick="document.getElementById('id01').style.display='block'" class="w3-button w3-round w3-red w3-opacity w3-hover-opacity-off" style="padding:8px 60px">Link</button> -->
   </p>
 </div>
-
-<!-- RSVP modal
-<div id="id01" class="w3-modal">
-  <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="padding:32px;max-width:600px">
-    <div class="w3-container w3-white w3-center">
-      <h1 class="w3-wide">CAN YOU COME?</h1>
-      <p>We really hope you can make it.</p>
-      <form>
-        <input class="w3-input w3-border" type="text" placeholder="Name(s)" name="name">
-      </form>
-      <p><i>Sincerely, John & Jane</i></p>
-      <div class="w3-row">
-        <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-green">Going</button>
-        </div>
-        <div class="w3-half">
-          <button onclick="document.getElementById('id01').style.display='none'" type="button" class="w3-button w3-block w3-red">Can't come</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div> -->
-
-
 
 <!-- Footer -->
 <footer class="w3-center w3-black w3-padding-16">
