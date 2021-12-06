@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+</style>
+</head>
+<body>
+<h2>Frequently Asked Questions</h2>
+<p>Click on the buttons to open the collapsible content.</p>
+
+<button class="accordion">Who is getting married?</button>
+<div class="panel">
+  <p>If you are asking this question, might I suggest checking the invitation?</p>
+</div>
+
+<button class="accordion">What should I wear?</button>
+<div class="panel">
+  <p>Attire is semi-formal/cocktail attire.  Ladies should wear cocktail dresses, and the gentlemen should wear a suit and tie or a sports coat.</p>
+</div>
+
+<button class="accordion">What will the weather be like this time of year?</button>
+<div class="panel">
+  <p>Lets all pray for good weather, please. Typically, summer in New Jersey has beautiful weather, between 70-80 degrees and sunny/partially sunny. If you are concerned, an umbrella could always help in rain or shine.
+</p>
+</div>
+<button class="accordion">Where is everything taking place?</button>
+<div class="panel">
+  <p>The ceremony will be outside at the boardwalk location, “in the vines.”
+    The cocktail hour will be in the Chateau Courtyard, directly outside of the hotel lobby
+    The Reception will be in the Chateau Ballroom located in the Hotel across the street. 
+    There is a short walk from the ceremony to the cocktail hour / reception. 
+    As noted in the agenda, there is a short intermission between ceremony and cocktail hour - we will use this time for everyone to chat and take pictures at the beautiful location 
+    </p>
+</div>
+<button class="accordion">Does the wedding have a theme?</button>
+<div class="panel">
+  <p>No, just here for a good time. </p>
+</div>
+<button class="accordion">Is there anything fun to do in the area?</button>
+<div class="panel">
+  <p>Please see the suggestions page for area tips!</p>
+</div>
+<button class="accordion">What is the timeframe? </button>
+<div class="panel">
+  <p>Please see the agenda on the homepage </p>
+</div>
+<button class="accordion">Can I bring a date?</button>
+<div class="panel">
+  <p>This may not be the best place for a first date, but if you are confused about your plus one please text Sara or Sean to confirm. This is RSVP only which should have been listed on the invitation. </p>
+</div>
+<button class="accordion">Are there hotel room blocks? </button>
+<div class="panel">
+  <p>Yes, please see the accommodations tab.</p>
+</div>
+<button class="accordion">Are the spaces wheelchair accessible? </button>
+<div class="panel">
+  <p>Both spaces are wheelchair accessible and further accommodations can be provided upon request 
+</p>
+</div>
+<button class="accordion">Will there be any vegan/vegetarian/gluten free/special diet options? </button>
+<div class="panel">
+  <p>Meal selections can be done through the invitation and as listed there is a vegetarian option, most dinners are primarily gluten free, along with options at cocktail hour. If there is a serious allergy or request please let Sara know. </p>
+</div>
+<button class="accordion">Is there a registry? </button>
+<div class="panel">
+  <p>Unfortunately, not a traditional registry. With our move across the country and after almost five years living together, we have everything we could need and no room to store anything additional. Please feel free to look at our newlywed fund. We know this isn't the traditional route but we hope you understand and we appreciate you. Your presence is a present enough.  
+    https://www.zola.com/registry/seanandsarajune11 
+    </p>
+</div>
+<button class="accordion">May I take a centerpiece/candle/flowers home as a souvenir? </button>
+<div class="panel">
+  <p>Stay tuned! We are going to have a raffle for centerpieces.</p>
+</div>
+<button class="accordion">Can I take and post pictures of the wedding on social media? </button>
+<div class="panel">
+  <p>Yes please! We want these memories to last forever. Remember #iDOugherty</p>
+</div>
+<button class="accordion">Are kids welcome?</button>
+<div class="panel">
+  <p>While we love your little ones, our wedding is going to be an adults-only event so that everyone can relax and enjoy the evening. We appreciate you making arrangements ahead of time and leaving the kids at home so you can celebrate with us.</p>
+</div>
+<button class="accordion">I still have questions, what is the best way to contact you? </button>
+<div class="panel">
+  <p>Please feel free to text Sara @ 862-684-3555. I’m happy to give further clarity or more suggestions! If I don't respond within 24 hours, please don't hesitate to double text me.</p>
+</div>
+
+<p>WARNING: There is limited cellphone service at the venue. This makes it a great time to hang up and hang out but if you need to be reached, please inform those looking for you of this small hiccup. </p>
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var panel = this.nextElementSibling;
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    } 
+  });
+}
+</script>
+
+</body>
+</html>
