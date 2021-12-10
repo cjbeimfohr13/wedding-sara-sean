@@ -1,0 +1,22 @@
+body,h1,h2,h3,h4,h6{font-family: "Trirong", sans-serif}
+body, html {height: 100%}
+p {line-height: 2}
+.bgimg, .bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+.bgimg {background-image: url("/images/saraseanmalibucover.JPG")}
+.bgimg2 {background-image: url("/images/1676965808.jpg")}
+.para{  float: left; padding:10px;}
+.left, .right{
+  width: 25%;
+}
+.middle{
+  width:50%;
+}
+.pararow:after{
+  content: "";
+  display: table;
+  clear: both;
+}
