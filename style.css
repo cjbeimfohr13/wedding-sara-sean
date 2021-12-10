@@ -44,3 +44,6 @@ p {line-height: 2}
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+#registry{
+  background-color: #1b4636;
+}
