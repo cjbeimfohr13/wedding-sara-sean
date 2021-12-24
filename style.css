@@ -8,18 +8,18 @@ p {line-height: 2}
 }
 .bgimg {background-image: url("/images/saraseanmalibucover.JPG")}
 .bgimg2 {background-image: url("/images/1676965808.jpg")}
-.para{  float: left; padding:10px;}
-.left, .right{
+/* .para{  float: left; padding:10px;} */
+/* .left, .right{
   width: 25%;
 }
 .middle{
   width:50%;
-}
-.pararow:after{
+} */
+/* .pararow:after{
   content: "";
   display: table;
   clear: both;
-}
+} */
 .accordion {
     background-color:#1b4636;
     color:white;
