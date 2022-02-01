@@ -50,3 +50,7 @@ p {line-height: 2}
 } */
 
 /* Media query for nav */
+.buttoncolor{
+  background-color:#1b4636;
+  color: white;
+}
